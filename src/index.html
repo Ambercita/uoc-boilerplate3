@@ -1,36 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- favicon -->
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="../src/assets/images/favicon.ico"
+        />
+        <!-- do not remove this line! -->
+         <!-- Google Fonts 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400..700;1,400..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        -->
+        <title>Jornada de ciberseguridad</title>
+    </head>
+    <body class="bg-slate-100">
+        <include src="./views/header.html"></include>
+        <main class="m-10 text-center">
+            <h1 class="text-red-600 font-semibold text-6xl font-mono m-6">Jornada de seguridad informática</h1>
+            <p class="mb-3 font-serif text-base">
+                ¡Fortalece tu conocimiento en seguridad informática! 🔒 Únete a
+                nuestra Jornada de Seguridad Informática y aprende de expertos
+                cómo proteger tus sistemas, datos y redes frente a las amenazas
+                digitales. Descubre estrategias prácticas, herramientas
+                innovadoras y las mejores prácticas para mantener tu información
+                segura.
+            </p>
+            <a class="underline font-serif"  href="./news.html">Leer más</a>
+            <img class="w-4/5 mx-auto my-3 rounded-3xl"
+                src="./assets/images/ciberseguridad.jpg"
+                alt="seguridad informática" />
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
-    <!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source
-          srcset="./assets/images/logo.png?as=webp&width=350"
-          type="image/webp"
-        />
-        <img
-          src="./assets/images/logo.png?width=350"
-          alt="Universitat Oberta de Catalunya"
-          class="uoc-logo"
-        />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script>
-    <!-- do not remove this line! -->
-  </body>
+            <!--<a href="contact.html">Contacto</a>-->
+        </main>
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
 </html>
