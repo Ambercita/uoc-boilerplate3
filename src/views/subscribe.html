@@ -1,15 +1,13 @@
-<form>
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@dominio.com">
-      </div>
-        <div>
-                 No vamos a mandarte nada de spam
-        </div>
-    </div>
-    <button>Subscribir Newsletter</button>
+<form class="flex flex-col align-middle justify-center gap-3 p-3 sm:w-7/12 mx-auto font-serif text-base">
+  <p class="text">
+    Subcríbete para mantenerse informado
+    sobre las últimas tendencias en ciberseguridad. <br>¡No esperes
+    a ser víctima de un ataque cibernético!
+</p>
+        <label for="formGroupExampleInput">Nombre</label>
+        <input type="text" class="campo" placeholder="Nombre">
+        <label for="exampleFormControlInput1">Correo Electrónico</label>
+        <input type="email"  placeholder="ejemplo@dominio.com" class="campo">
+        &hearts; No vamos a mandarte nada de spam
+    <a class="campo bg-red-200 hover:bg-red-300 text-center" href="#">Subscribir Newsletter</button>
 </form>

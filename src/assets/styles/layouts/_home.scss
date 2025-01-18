@@ -2,56 +2,47 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
-  padding: 2rem;
-  font-family: $font-family-sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+.body {
+  @apply flex flex-col h-screen m-0 p-8 bg-slate-200 text-gray-800;
 }
 
-.uoc-container {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  border-radius: 2rem;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.text {
+  @apply text-base font-serif text-justify mb-3;
 }
 
-.uoc-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
-  max-width: 200px;
-  height: auto;
-
-  @media (min-width: $mqMinWidth) {
-    max-width: none;
-  }
+.accordian {
+  @apply cursor-pointer bg-rose-300 opacity-85 p-2 rounded-lg border-2 border-red-400 font-mono text-sm;
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: $uoc-corporate;
-
-  @media (min-width: $mqMinWidth) {
-    font-size: 36px;
-  }
+.accordian-content {
+  @apply p-4 bg-gray-100 rounded-lg font-serif text-sm;
 }
 
-.uoc-footer {
-  margin-top: 1.5rem;
-  font-size: 0.75rem;
-  text-align: center;
+.img {
+  @apply w-4/5 mx-auto my-3 rounded-3xl;
+}
+
+.figcap {
+  @apply text-center text-sm text-gray-700;
+}
+
+b {
+  @apply font-bold text-red-600;
+}
+
+dt {
+  @apply font-semibold  text-red-600 font-mono text-sm;
+}
+
+dl,
+dd {
+  @apply text-sm;
+}
+
+.campo {
+  @apply rounded-lg border-2 border-red-300 p-2;
+}
+
+.title {
+  @apply text-red-600 font-semibold text-center font-mono sm:text-3xl sm:m-3 md:text-4xl md:m-6;
 }
