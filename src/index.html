@@ -1,21 +1,14 @@
 <!doctype html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
-        <!-- favicon -->
-        <link
-            rel="icon"
-            type="image/x-icon"
-            href="../src/assets/images/favicon.ico"
-        />
-        <!-- do not remove this line! -->
-         <!-- Google Fonts 
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../src/assets/images/favicon.ico" />
+    <!-- do not remove this line! -->
+    <!-- Google Fonts 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -23,30 +16,29 @@
             rel="stylesheet"
         />
         -->
-        <title>Jornada de ciberseguridad</title>
-    </head>
-    <body class="body">
-        <include src="./views/header.html"></include>
-        <main class="m-10 text-center">
-            <h1 class="title">Jornada de seguridad informática</h1>
-            <p class="mb-3 font-serif text-base">
-                ¡Fortalece tu conocimiento en seguridad informática! 🔒 Únete a
-                nuestra Jornada de Seguridad Informática y aprende de expertos
-                cómo proteger tus sistemas, datos y redes frente a las amenazas
-                digitales. Descubre estrategias prácticas, herramientas
-                innovadoras y las mejores prácticas para mantener tu información
-                segura.
-            </p>
-            <a class="underline font-serif"  href="./news.html">Leer más</a>
-            <img class="img"
-                src="./assets/images/ciberseguridad.jpg"
-                alt="seguridad informática" />
+    <title>Jornada de ciberseguridad</title>
+</head>
 
-            <!--<a href="contact.html">Contacto</a>-->
-        </main>
-        <include src="./views/subscribe.html"></include>
-        <include src="./views/footer.html"></include>
-        <script type="module" src="./assets/scripts/main.js"></script>
-        <!-- do not remove this line! -->
-    </body>
+<body class="body">
+    <include src="./views/header.html"></include>
+    <main class="m-10 text-center">
+        <h1 class="title">Jornada de seguridad informática</h1>
+        <p class="mb-3 font-serif text-base">
+            ¡Fortalece tu conocimiento en seguridad informática! 🔒 Únete a
+            nuestra Jornada de Seguridad Informática y aprende de expertos
+            cómo proteger tus sistemas, datos y redes frente a las amenazas
+            digitales. Descubre estrategias prácticas, herramientas
+            innovadoras y las mejores prácticas para mantener tu información
+            segura.
+        </p>
+        <a class="underline font-serif" href="./news.html">Leer más</a>
+        <img class="img" src="./assets/images/ciberseguridad.jpg" alt="seguridad informática" />
+        <include src="./views/reviews.html"></include>
+    </main>
+    <include src="./views/subscribe.html"></include>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+</body>
+
 </html>
