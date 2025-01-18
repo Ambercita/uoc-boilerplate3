@@ -44,5 +44,9 @@ dd {
 }
 
 .title {
-  @apply text-red-600 font-semibold text-center font-mono sm:text-3xl sm:m-3 md:text-4xl md:m-6;
+  @apply text-red-600 font-semibold text-center my-5 font-mono sm:text-3xl sm:m-3 md:text-4xl md:m-6;
+}
+
+.img-profile {
+  @apply border-2 border-red-300 rounded-lg shadow-sm max-w-xs h-auto object-cover mb-2;
 }
