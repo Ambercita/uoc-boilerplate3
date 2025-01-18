@@ -11,7 +11,7 @@
 }
 
 .accordian {
-  @apply cursor-pointer bg-rose-300 opacity-85 p-2 rounded-lg border-2 border-red-400 font-mono text-sm;
+  @apply cursor-pointer bg-rose-300 opacity-85 p-2 rounded-lg border-2 border-border font-mono text-sm;
 }
 
 .accordian-content {
@@ -23,15 +23,15 @@
 }
 
 .figcap {
-  @apply text-center text-sm text-gray-700;
+  @apply text-center text-sm text-subtext;
 }
 
 b {
-  @apply font-bold text-red-600;
+  @apply font-bold text-primary;
 }
 
 dt {
-  @apply font-semibold  text-red-600 font-mono text-sm;
+  @apply font-semibold  text-primary font-mono text-sm;
 }
 
 dl,
@@ -40,13 +40,13 @@ dd {
 }
 
 .campo {
-  @apply rounded-lg border-2 border-red-300 p-2;
+  @apply rounded-lg border-2 border-border p-2;
 }
 
 .title {
-  @apply text-red-600 font-semibold text-center my-5 font-mono sm:text-3xl sm:m-3 md:text-4xl md:m-6;
+  @apply text-primary font-semibold text-center my-5 font-mono sm:text-3xl sm:m-3 md:text-4xl md:m-6;
 }
 
 .img-profile {
-  @apply border-2 border-red-300 rounded-lg shadow-sm max-w-xs h-auto object-cover mb-2;
+  @apply border-2 border-border rounded-lg shadow-sm max-w-xs h-auto object-cover mb-2;
 }
